@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <title>My Tailwind CSS Project</title>
+</head>
+<body class="h-screen w-screen">
+    <div class="h-screen w-full bg-center bg-cover" style="background-image: url('images/bg-img - Copia.jpg')">
+        <nav class="md:flex bg-orange-950 bg-opacity-25">
+            
+            <div class="logo w-56 mr-36">
+                <img src="images/logo.png" alt="logo cafácil">
+                <img class="absolute right-3 top-5 w-6 lg:hidden " src="images/cart.png" alt="">
+
+            </div>
+
+            <ul class="flex-1 text-xl hidden lg:flex text-white md:space-x-32 justify-evenly py-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="/v2/about.html">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a class="mr-6" href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="text-white mt-48 ml-14 max-w-xl hidden sm:block ">
+            <h1 class="text-6xl font-semibold leading-normal ">Café<br>em até <span class="font-strong">15 min</span></h1>
+            <p>Receba seu café quentinho, com qualidade única, do conforto da sua casa. Uma variedade de opções e combinações à sua disposição.</p>
+            <div class="mt-10">
+                <a href="#" class="bg-yellow-700 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">
+                    Peça aqui
+                </a>
+                <a href="#" class="text-white">Download App</a>
+            </div>
+        </div>
+
+        <div class="card h-56 w-10/12 sm:hidden right-5 bg-gray-400 rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border border-transparent absolute bottom-32 lg:hidden">
+            <p class="text-lg text-center text-white relative top-4">Café fresquinho, do grão ao copo,<br> entregue até você!</p>
+            <div class="text-xl text-center text-bold  border border-amber-900 w-10/12 py-3.5 m-10 rounded-full text-white">
+                PEÇA AGORA &#8594;
+            </div>
+        </div>
+    </div>
+</body>
+</html>
